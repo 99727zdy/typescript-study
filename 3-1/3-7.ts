@@ -8,7 +8,7 @@ let randomValue:any=666;
 randomValue=true
 randomValue="hh"
 randomValue={}
-randomValue()
+randomValue()//运行的时候会报错randomValue is not a function
 randomValue.toUpperCase()
 
 // unknown
