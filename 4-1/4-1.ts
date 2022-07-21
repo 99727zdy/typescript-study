@@ -1,3 +1,4 @@
+// 面向对象
 // 对象Object
 const person={
     firstName:"莱布尼茨",
