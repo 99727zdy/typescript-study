@@ -46,7 +46,6 @@ class myPoint2 implements IPoint{
         console.log("x:",this.x,"y:",this.y)
     };
     getDistance=(p:IPoint)=>{
-        console.log(Math.pow(p.x-this.x,2)+Math.pow(p.y-this.y,2))
         return Math.pow(p.x-this.x,2)+Math.pow(p.y-this.y,2)
     };
 }
